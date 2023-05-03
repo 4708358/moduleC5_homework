@@ -1,0 +1,65 @@
+button {
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  margin: 10px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+
+}
+
+button:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(2);
+  color: red;
+}
+input {
+  width: 380px;
+  height: 60px;
+  font-size: 40px;
+  
+
+}
+label {
+  font-size: 40px;
+  margin-right: 10px;
+}
+div {
+  width: 100 vw;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-left: 135px;
+  flex-wrap: wrap;
+}
+.interval {
+  width: 140 px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  
+  width: 100vw;
+}
+
+.card {
+  width: 150px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
